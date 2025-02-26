@@ -21,7 +21,7 @@ Connection scheme:
 <img src="https://github.com/user-attachments/assets/7321e080-0147-4685-ae06-c8a4e75eaf1c" width="500">
 </p>
 
-Provided PCB for the clock. I used STM32 BluePill development board and Neo-6M GPS-Module. You can find all PCB files and scheme it in "Altium files" directory:
+Provided PCB for the clock. I used STM32 BluePill development board and Neo-6M GPS-Module. You can find all PCB files in "Altium files" directory. Also you can find PDF-schemes in "Schemes" folder.
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/b49c79e8-c419-483a-976a-4d17150c7053" width="300">
@@ -47,6 +47,14 @@ From the front:
 <p align="center">
 <img src="https://github.com/user-attachments/assets/2038f5e0-b25c-4d08-9906-383e3f05e12e" width="500">
 </p>
+
+
+For programming I used **DMD_STM32 library**. It just works and library owner always provides feedback. </br>
+You can download it there: https://github.com/board707/DMD_STM32 . </br>
+
+Two fonts were created: big is to show the time, smaller - to show the date. Both of them are in "Fonts" folder. </br>
+
+Also one thing: better to find Px LED module which is supported by library. Please check up what shift-register ICs are used in your LED module before you order. </br>
 
 The clock uses external antenna. So you have to keep in mind about correct antenna placement - it doesn't get any data from satellite if there is any obstacle between antenna and satellite:
 
