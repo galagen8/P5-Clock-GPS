@@ -11,8 +11,9 @@ The clock screen supposed to looks like this:
 
 Provided drawing for the case. You can find drawing files it in "Solidworks files" directory:
 
+</br>
 <p align="center">
-..pic..
+<img src="https://github.com/user-attachments/assets/da0d108f-638f-4649-a638-a1d17937fd60" width="700">
 </p>
 
 Connection scheme:
